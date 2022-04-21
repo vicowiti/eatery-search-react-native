@@ -1,28 +1,13 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-
-// export default function App() {
-//   return (
-//     <View style={styles.container}>
-//       <Text>Open up App.js to start working on your app!!!</Text>
-//       <StatusBar style="auto" />
-//     </View>
-//   );
-// }
-
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: "skyblue",
-//     alignItems: "center",
-//     justifyContent: "center",
-//   },
-// });
+import Header from "./src/components/Header";
+import Search from "./src/components/Search";
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <Text>Hello Victor</Text>
+      <Header />
+      <Search />
       <StatusBar />
     </View>
   );
@@ -30,10 +15,10 @@ const App = () => {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: "skyblue",
-    alignItems: "center",
-    justifyContent: "center",
+    // flex: 1,
+    // backgroundColor: "skyblue",
+    // alignItems: "center",
+    // justifyContent: "center",
   },
 });
 
