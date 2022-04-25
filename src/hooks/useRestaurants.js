@@ -20,7 +20,7 @@ const useRestaurants = () => {
         params: {
           limit: 15,
           term,
-          location: "Toronto",
+          location: "Paris",
         },
       });
 
