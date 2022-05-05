@@ -4,5 +4,8 @@
 
 # The app ui:
 
- <img src="./assets/shot.jpg" width="100">
-<img src="./assets/shot1.jpg" width="100">
+<div style="display:flex ; align-items:center">
+<img src="./assets/shot.jpg" width="250">
+<img src="./assets/shot1.jpg" width="250">
+
+</div>
