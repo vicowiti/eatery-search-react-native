@@ -4,4 +4,5 @@
 
 # The app ui:
 
-![UI 1](./assets/shot.jpg | width=100) ![UI 2](./assets/shot1.jpg | width=100)
+ <img src="./assets/shot.jpg" width="100">
+<img src="./assets/shot1.jpg" width="100">
